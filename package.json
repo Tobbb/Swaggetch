@@ -1,0 +1,28 @@
+{
+  "name": "swaggetch",
+  "version": "1.0.0",
+  "description": "Parser for swagger",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts"
+  },
+  "author": "Tobbb",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "eslint": "^8.57.0",
+    "nodemon": "^3.1.0",
+    "prettier": "3.2.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3",
+    "typescript-eslint": "^7.4.0"
+  },
+  "eslintIgnore": [
+    "eslint.config.js"
+  ]
+}
